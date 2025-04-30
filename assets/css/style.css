@@ -6227,6 +6227,8 @@ ol.wp-block-rss {
   --body-color: #B5B5B5;
   --th-border-color: rgba(1, 125, 3, 0.5);
   background-color: #002D00;
+  padding-top: 108px;
+  margin-top: -108px;
 }
 
 .footer-layout2 a:before {
@@ -13158,6 +13160,51 @@ span.select2-selection.select2-selection--single:focus {
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
 }
+.why-feature1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  max-width: 286px;
+}
+
+.why-feature1:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+.why-feature1 .box-icon {
+  -webkit-transform: translateY(-4px);
+      -ms-transform: translateY(-4px);
+          transform: translateY(-4px);
+}
+
+.why-feature1 .box-title {
+  font-size: 22px;
+  /* color: var(--white-color); */
+  margin-bottom: 15px;
+}
+
+.why-feature1 .box-text {
+  /* color: var(--light-color); */
+}
+
+.why-feature1-right {
+  text-align: right;
+}
+
+.why-feature1-right .why-feature1 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.pro-img{
+  border-radius: 20px;
+  height: 455px !important;
+}
 
 /* Small devices */
 @media (max-width: 767px) {
@@ -13405,6 +13452,8 @@ span.select2-selection.select2-selection--single:focus {
   z-index: 2;
   padding: 85px 10px 54px 10px;
   background-color: var(--white-color);
+  border-radius: 20px;
+  box-shadow: 0 10px 50px rgba(0,0,0,0.1);
 }
 
 .service-card .box-icon {
@@ -14087,11 +14136,12 @@ span.select2-selection.select2-selection--single:focus {
 /*------------------- 4.00. Category -------------------*/
 /* Category Card -------------------------------------*/
 .category-card {
-  background-color: var(--smoke-color2);
+  background-color: #94ff8b;
   padding: 40px 15px 45px 15px;
   text-align: center;
   -webkit-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
+  border-radius: 15px;
 }
 
 .category-card .box-shape {
@@ -14126,6 +14176,7 @@ span.select2-selection.select2-selection--single:focus {
   font-family: var(--title-font);
   -webkit-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
+  padding: 20px;
 }
 
 .category-card:hover {
@@ -15349,6 +15400,11 @@ span.select2-selection.select2-selection--single:focus {
   .space-extra2-bottom {
     padding-bottom: 70px;
   }
+}
+
+
+.gap-15{
+  gap: 15px;
 }
 
 /*=================================
