@@ -1178,7 +1178,7 @@ textarea.is-invalid {
   padding-top: 40px;
   display: block;
   text-align: center;
-  background-color: var(--smoke-color2);
+  background-color: #00b851;
 }
 
 .th-menu-wrapper .mobile-logo svg {
@@ -1637,7 +1637,8 @@ textarea.is-invalid {
 }
 
 .th-btn.style6 {
-  background-color: var(--title-color);
+  background-color: var(--white-color);
+  color: var(--black-color);
 }
 
 .th-btn.style6:hover {
@@ -1921,9 +1922,9 @@ textarea.is-invalid {
   display: block;
   font-size: 18px;
   font-weight: 500;
-  font-family: var(--style-font);
+  /* font-family: var(--style-font); */
   letter-spacing: 0.08em;
-  color: var(--theme-color2);
+  /* color: var(--theme-color2); */
   margin-bottom: 24px;
   text-transform: capitalize;
   line-height: 24px;
@@ -5336,13 +5337,15 @@ ol.wp-block-rss {
 .header-layout2 .header-logo {
   position: relative;
   z-index: 3;
-  height: 140px;
+  /* height: 140px; */
   display: grid;
   -webkit-align-content: center;
       -ms-flex-line-pack: center;
           align-content: center;
   padding-left: 20px;
-  margin-top: -40px;
+  /* margin-top: -40px; */
+  left: 25px;
+  filter: brightness(0.5);
 }
 
 .header-layout2 .main-menu {
@@ -6328,7 +6331,7 @@ ol.wp-block-rss {
   line-height: 32px;
   font-size: 14px;
   background-color: rgba(255, 255, 255, 0.08);
-  color: var(--theme-color2);
+  /* color: var(--theme-color2); */
   border-radius: 6px;
   text-align: center;
   margin-right: 10px;
@@ -12983,7 +12986,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .choose-feature-area {
-  background-color: var(--smoke-color2);
+  background-color: #98ff9f2b;
   border-radius: 30px;
   padding: 30px;
   position: relative;
@@ -14467,6 +14470,145 @@ span.select2-selection.select2-selection--single:focus {
     padding: 25px;
   }
   .offer-block .box-title {
+    font-size: 30px;
+  }
+}
+
+
+.offer-block-product {
+  padding: 27px 40px 40px 40px;
+  border-radius: 30px;
+  /* background-color: var(--smoke-color2); */
+}
+
+.offer-block-product1{
+  padding: 70px 60px 70px 60px;
+}
+
+.offer-block-product .box-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  /* Small devices */
+}
+
+@media (max-width: 767px) {
+  .offer-block-product .box-img {
+    max-width: 55%;
+  }
+}
+
+.offer-block-product .box-subtitle {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: -0.36em;
+  margin-bottom: 16px;
+  display: block;
+  color: var(--theme-color);
+}
+
+.offer-block-product .box-heading {
+  display: block;
+  font-family: var(--title-font);
+  font-size: 20px;
+  font-weight: 300;
+  color: var(--theme-color);
+  margin-bottom: 10px;
+  margin-top: -0.4em;
+}
+
+.offer-block-product .box-title {
+  font-size: 36px;
+  font-weight: 300;
+  margin-bottom: 0;
+  position: relative;
+  z-index: 3;
+}
+
+.offer-block-product .box-title b {
+  font-weight: 700;
+}
+
+.offer-block-product .box-text {
+  margin-bottom: 22px;
+  position: relative;
+  z-index: 3;
+}
+
+.offer-block-product .box-content {
+  position: relative;
+  padding: 35px;
+  border: 5px solid #ae96c3;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+.offer-block-product .box-content:after {
+  content: '';
+  position: absolute;
+  right: -5px;
+  bottom: -5px;
+  height: 70%;
+  width: 80%;
+  border-bottom: 5px solid #a0b8df;
+  border-right: 5px solid var(--th-border-color);
+  border-radius: 0 0 15px 0;
+}
+
+.offer-block-product2-border .box-content{
+  border: 5px solid #8dbced;
+}
+.offer-block-product3-border .box-content{
+  border: 5px solid #599c38;
+}
+
+.offer-block-product2-border .box-content:after{
+  border-bottom: 5px solid #cf9bd6;
+  border-right: 5px solid #ceb6e4;
+}
+.offer-block-product3-border .box-content:after{
+  border-bottom: 5px solid #f7cade;
+  border-right: 5px solid #f8cdac;
+}
+
+
+
+.offer-block-product .box-shape {
+  position: absolute;
+  inset: 0;
+}
+
+.offer-block-product .box-shape img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Extra small devices */
+@media (max-width: 575px) {
+  .offer-block-product {
+    padding: 30px;
+    border-radius: 20px;
+  }
+  .offer-block-product .box-img {
+    max-width: 50%;
+  }
+  .offer-block-product .box-subtitle {
+    margin-bottom: 12px;
+  }
+  .offer-block-product .box-content {
+    padding: 15px;
+    border: 3px solid var(--white-color);
+  }
+}
+
+/* Extra small devices */
+@media (max-width: 375px) {
+  .offer-block-product {
+    padding: 25px;
+  }
+  .offer-block-product .box-title {
     font-size: 30px;
   }
 }
