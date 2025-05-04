@@ -9551,7 +9551,7 @@ table.woocommerce-product-attributes {
 }
 
 .product-big-img {
-  background-color: var(--smoke-color2);
+  /* background-color: var(--smoke-color2); */
   text-align: center;
   overflow: hidden;
   border-radius: 20px;
@@ -15347,6 +15347,9 @@ span.select2-selection.select2-selection--single:focus {
 
 .mb-50 {
   margin-bottom: 50px;
+}
+.mb-100 {
+  margin-bottom: 100px;
 }
 
 /*-- margin Left --*/
