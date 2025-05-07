@@ -13176,8 +13176,9 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 /* Why 2 ---------------------------------- */
-.img-box4 {
-  filter: drop-shadow(#000 0rem 0rem 10px);
+.img-box4,
+.product-big-img {
+  filter: drop-shadow(#000 0rem 0rem 5px);
   margin-top: -10px;
   /* Medium Large devices */
   /* Large devices */
