@@ -1,9 +1,10 @@
 .widget {
     padding: var(--widget-padding-y, 40px) var(--widget-padding-x, 40px);
-    background-color: $smoke-color2;
+    // background-color: $smoke-color2;
     margin-bottom: 40px;
     position: relative;
     border-radius: 20px;
+    box-shadow: 0 10px 50px rgba(0,0,0,0.1);
 
     &[data-overlay]:before {
         z-index: -1;
