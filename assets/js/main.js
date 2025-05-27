@@ -243,7 +243,7 @@
             spaceBetween: settings['spaceBetween'] ? settings['spaceBetween'] : 24,
             loop: settings['loop'] == false ? false : true,
             speed: settings['speed'] ? settings['speed'] : 1000,
-            autoplay: autoplayconditon ? autoplayconditon : {delay: 50000, disableOnInteraction: false},
+            autoplay: autoplayconditon ? autoplayconditon : {delay: 3000, disableOnInteraction: false},
             navigation: {
                 nextEl: nextArrow.get(0),
                 prevEl: prevArrow.get(0),  
